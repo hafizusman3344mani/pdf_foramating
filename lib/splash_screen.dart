@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:pdf_foramating/home.dart';
 import 'package:pdf_foramating/main.dart';
 
-
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -14,9 +13,13 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 3),
-        () => Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => CreatePdfStatefulWidget())));
+      Duration(seconds: 3),
+      () => Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (BuildContext context) => CreatePdfStatefulWidget(),
+        ),
+      ),
+    );
   }
 
   @override

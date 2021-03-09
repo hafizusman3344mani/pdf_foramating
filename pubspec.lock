@@ -151,6 +151,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.5.2"
+  flutter_pdfview:
+    dependency: "direct main"
+    description:
+      name: flutter_pdfview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -326,7 +333,7 @@ packages:
     source: hosted
     version: "0.0.4+3"
   pdf:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: pdf
       url: "https://pub.dartlang.org"
